@@ -1,5 +1,5 @@
 #include <iostream>
-#include "book.h"
+#include "../book.h"
 
 
 __global__ void add(int a,int b, int* c){

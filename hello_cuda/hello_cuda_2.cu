@@ -1,5 +1,5 @@
 #include <iostream>
-#include "book.h"
+#include "../book.h"
 #include <cuda_runtime.h>
 #define N (33 * 1024)
 

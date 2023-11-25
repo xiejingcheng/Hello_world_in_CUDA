@@ -1,5 +1,5 @@
 #include <iostream>
-#include "book.h"
+#include "../book.h"
 #define N (33 * 1024)
 #define imin(a,b) (a<b?a:b)
 
