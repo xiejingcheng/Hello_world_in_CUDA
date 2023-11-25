@@ -1,6 +1,7 @@
 #include <iostream>
 #include "book.h"
 
+
 __global__ void add(int a,int b, int* c){
     *c = a + b;
 
@@ -16,5 +17,8 @@ int main(void){
                             sizeof(int),
                             cudaMemcpyDeviceToHost));
     printf("%d\n",c);
+
+    cudaFree(dev_c);
     return 0;
+    
 }
