@@ -1,6 +1,7 @@
 #include <iostream>
-#include "../book.h"
 #include <cuda_runtime.h>
+#include "../utils/book.h"
+
 #define N (33 * 1024)
 
 __global__ void add(int*a ,int *b, int *c){

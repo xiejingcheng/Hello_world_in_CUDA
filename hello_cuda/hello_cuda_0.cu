@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../book.h"
+#include "../utils/book.h"
 __global__ void hello()
 {
     printf("Hello CUDA\n");
