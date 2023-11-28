@@ -2,4 +2,3 @@
 *.exp
 *.lib
 .vscode/
-.vscode/*.json
