@@ -1,4 +1,4 @@
 *.exe
 *.exp
 *.lib
-*.json
+.vscode/
